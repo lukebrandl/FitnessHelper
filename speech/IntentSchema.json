@@ -45,10 +45,10 @@
       "intent": "ModifyExerciseIntent",
       "slots":[
         {
-          "name": "X",
-          "type": "LIST_OF_EXERCISES"
+          "name": "slot",
+          "type": "AMAZON.NUMBER"
         },{
-          "name": "Y",
+          "name": "exercise",
           "type": "LIST_OF_EXERCISES"
         },{
           "name": "repnum",

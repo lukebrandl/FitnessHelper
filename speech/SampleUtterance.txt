@@ -19,8 +19,8 @@ ListRoutinesIntent List routines
 
 DeleteThisRoutineIntent Delete this routine
 
-ModifyExerciseIntent Modify exercise {exercise_X} to {exercise_Y} for {setnum} sets of {repnum} reps
-ModifyExerciseIntent Modify exercise {exercise_X} to {setnum} sets of {repnum} {exercise_Y}
+ModifyExerciseIntent Modify Slot {slot} to {exercise} for {setnum} sets of {repnum} reps
+ModifyExerciseIntent Modify Slot {slot} to {setnum} sets of {repnum} {exercise}
 
 MoveExerciseIntent Move exercise {X} to {Y}
 
