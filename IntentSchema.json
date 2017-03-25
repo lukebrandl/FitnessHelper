@@ -67,7 +67,7 @@
         },{
           "name": "Y",
           "type": "AMAZON.NUMBER"
-        },
+        }
       ]
     },{
       "intent": "RemoveExerciseIntent",

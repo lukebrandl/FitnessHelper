@@ -1,3 +1,6 @@
+TestIntent: |
+    Alright, this is a test message
+
 CreateRoutineIntent: |
     Alright, creating new routine for {{dayofweek}} {{X}}.
     What exercise would you like to add to this routine?
