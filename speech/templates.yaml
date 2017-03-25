@@ -1,0 +1,31 @@
+CreateRoutineIntent: |
+    Alright, creating new routine for {{dayofweek}} {{X}}.
+    What exercise would you like to add to this routine?
+
+AddExerciseIntent:  |
+    Alright, exercise routine {{dayofweek}} {{X}} is created.
+    You can modify this routine by saying Modify routine name
+
+ModifyRoutineIntent: |
+    modify routine {dayofweek} X
+
+DoneModifyIntent: |
+    OK, it's modified. What next?
+
+ListExercisesIntent: |
+    The exercises in routine {{dayofweek}} {{X}} has {{exercises}}
+
+ListRoutinesIntent: |
+    You have the following routines, {{routines}}
+
+DeleteThisRoutineIntent: |
+    Feel free to eat some junk food and lower your life expetency on {{dayofweek}}
+
+ModifyExerciseIntent: |
+    Excercise removed
+
+MoveExerciseIntent: |
+    Excercise moved
+
+RemoveExerciseIntent: |
+    Remove exercise {exercise}
