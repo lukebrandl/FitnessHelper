@@ -36,11 +36,11 @@
         }
       ]
     },{
-      "intent": "DoneModifyIntent",
+      "intent": "DoneModifyIntent"
     },{
-      "intent": "ListExercisesIntent",
+      "intent": "ListExercisesIntent"
     },{
-      "intent": "DeleteThisRoutineIntent",
+      "intent": "DeleteThisRoutineIntent"
     },{
       "intent": "ModifyExerciseIntent",
       "slots":[
@@ -78,7 +78,7 @@
         }
       ]
     },{
-      "intent": "ListRoutinesIntent",
+      "intent": "ListRoutinesIntent"
     }
   ]
 }
