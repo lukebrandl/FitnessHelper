@@ -1,0 +1,84 @@
+{
+  "intents": [{
+      "intent": "CreateRoutineIntent",
+      "slots": [
+        {
+          "name": "dayofweek",
+          "type": "AMAZON.DayOfWeek"
+        },{
+          "name": "X",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },{
+      "intent": "AddExerciseIntent",
+      "slots": [
+        {
+          "name": "exercise",
+          "type": "LIST_OF_EXERCISES"
+        },{
+          "name": "setnum",
+          "type": "AMAZON.NUMBER"
+        },{
+          "name": "repnum",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },{
+      "intent": "ModifyRoutineIntent",
+      "slots": [
+        {
+          "name": "dayofweek",
+          "type": "AMAZON.DayOfWeek"
+        },{
+          "name": "X",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },{
+      "intent": "DoneModifyIntent",
+    },{
+      "intent": "ListExercisesIntent",
+    },{
+      "intent": "DeleteThisRoutineIntent",
+    },{
+      "intent": "ModifyExerciseIntent",
+      "slots":[
+        {
+          "name": "X",
+          "type": "LIST_OF_EXERCISES"
+        },{
+          "name": "Y",
+          "type": "LIST_OF_EXERCISES"
+        },{
+          "name": "repnum",
+          "type": "AMAZON.NUMBER"
+        },{
+          "name": "setnum",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },{
+      "intent": "MoveExerciseIntent",
+      "slots":[
+        {
+          "name": "X",
+          "type": "AMAZON.NUMBER"
+        },{
+          "name": "Y",
+          "type": "AMAZON.NUMBER"
+        },
+      ]
+    },{
+      "intent": "RemoveExerciseIntent",
+      "slots":[
+        {
+          "name": "exercise",
+          "type": "LIST_OF_EXERCISES"
+        }
+      ]
+    },{
+      "intent": "ListRoutinesIntent",
+    }
+  ]
+}

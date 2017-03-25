@@ -1,0 +1,27 @@
+CreateRoutineIntent create routine for {dayofweek} {X}
+
+AddExerciseIntent add exercise {exercise} for {setnum} sets of {repnum} reps
+AddExerciseIntent add {setnum} sets of {repnum} reps {exercise} exercise
+AddExerciseIntent add {setnum} sets of {repnum} reps {exercise}
+
+ModifyRoutineIntent modify routine {dayofweek} X
+
+DoneModifyIntent I am done modifying this routine
+
+ListExercisesIntent List the exercises in the routine
+ListExercisesIntent List all exercises in the routine
+ListExercisesIntent List the exercises
+ListExercisesIntent List all exercises
+
+ListRoutinesIntent List all routines
+ListRoutinesIntent List my routines
+ListRoutinesIntent List routines
+
+DeleteThisRoutineIntent Delete this routine
+
+ModifyExerciseIntent Modify exercise {exercise_X} to {exercise_Y} for {setnum} sets of {repnum} reps
+ModifyExerciseIntent Modify exercise {exercise_X} to {setnum} sets of {repnum} {exercise_Y}
+
+MoveExerciseIntent Move exercise {X} to {Y}
+
+RemoveExerciseIntent Remove exercise {exercise}
