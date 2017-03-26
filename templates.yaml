@@ -2,9 +2,11 @@ TestIntent: |
     Alright, this is a test message
 
 CreateRoutineIntent: |
-    Alright, creating new routine for {{dayofweek}} {{X}}.
+    Alright, creating new routine {{dayofweek}} {{X}}.
     What exercise would you like to add to this routine?
 
+CreateExerciseIntent: |
+    New exercise {{exercise_name}} has been created.
 AddExerciseIntent:  |
     Alright, exercise routine {{dayofweek}} {{X}} is created.
     You can modify this routine by saying Modify routine name

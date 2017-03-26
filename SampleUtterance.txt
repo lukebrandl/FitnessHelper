@@ -1,4 +1,10 @@
 CreateRoutineIntent create routine for {dayofweek} {X}
+CreateRoutineIntent create a new routine for {dayofweek} {X}
+
+CreateExerciseIntent create new exercise {push ups|newexercise}
+CreateExerciseIntent create new exercise {deadlift|newexercise}
+CreateExerciseIntent create new exercise {leg extentsion|newexercise}
+CreateExerciseIntent create new exercise {leg press|newexercise}
 
 AddExerciseIntent add exercise {exercise} for {setnum} sets of {repnum} reps
 AddExerciseIntent add {setnum} sets of {repnum} reps {exercise} exercise
