@@ -48,6 +48,8 @@
     },{
       "intent": "ListExercisesIntent"
     },{
+      "intent": "ListRoutineIntent"
+    },{
       "intent": "DeleteThisRoutineIntent"
     },{
       "intent": "ModifyExerciseIntent",

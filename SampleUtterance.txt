@@ -9,13 +9,17 @@ CreateExerciseIntent create new exercise {leg press|newexercise}
 AddExerciseIntent add exercise {exercise} for {setnum} sets of {repnum} reps
 AddExerciseIntent add {setnum} sets of {repnum} reps {exercise} exercise
 AddExerciseIntent add {setnum} sets of {repnum} reps {exercise}
+AddExerciseIntent new exercise {exercise} for {setnum} sets of {repnum} reps
 
 ModifyRoutineIntent modify routine {dayofweek} X
 
 DoneModifyIntent I am done modifying this routine
 
-ListExercisesIntent List the exercises in the routine
-ListExercisesIntent List all exercises in the routine
+ListRoutineIntent List the exercises in the routine
+ListRoutineIntent List all exercises in the routine
+ListRoutineIntent List all exercises in this routine
+ListRoutineIntent List the exercises in this routine
+
 ListExercisesIntent List the exercises
 ListExercisesIntent List all exercises
 

@@ -7,9 +7,9 @@ CreateRoutineIntent: |
 
 CreateExerciseIntent: |
     New exercise {{exercise_name}} has been created.
+
 AddExerciseIntent:  |
-    Alright, exercise routine {{dayofweek}} {{X}} is created.
-    You can modify this routine by saying Modify routine name
+    Alright, exercise added to this routine in position {{pos}}.
 
 ModifyRoutineIntent: |
     modify routine {dayofweek} X
@@ -18,7 +18,8 @@ DoneModifyIntent: |
     OK, it's modified. What next?
 
 ListExercisesIntent: |
-    The exercises in routine {{dayofweek}} {{X}} has {{exercises}}
+    You have the following exercises, {{exercises}}
+#    The exercises in routine {{dayofweek}} {{X}} has {{exercises}}
 
 ListRoutinesIntent: |
     You have the following routines, {{routines}}
@@ -27,10 +28,10 @@ DeleteThisRoutineIntent: |
     Feel free to eat some junk food and lower your life expetency on {{dayofweek}}
 
 ModifyExerciseIntent: |
-    Excercise removed
+    Exercise removed
 
 MoveExerciseIntent: |
-    Excercise moved
+    Exercise moved
 
 RemoveExerciseIntent: |
     Remove exercise {exercise}
